@@ -1,0 +1,120 @@
+.box
+{
+	width: 100%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin: 1% 0;
+	text-align: center;
+}
+
+#headings
+{
+	width: 100%;
+	height: 400px;
+	/*border: 1px solid red;*/
+}
+
+#corona-tracker
+{
+	width: 100%;
+	height: 100px;
+	/*border: 1px solid red;*/
+}
+
+#display-table
+{
+	width: 100%;
+	height: 100px;
+	/*border: 1px solid red;*/
+}
+
+table
+{
+	width: 100%;
+	margin-top: 1%;
+	border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#image-display
+{
+	width: 100%;
+	/*border: 1px solid red;*/
+	height: 460px;
+}
+
+#img-heading
+{
+	/*border: 1px solid purple;*/
+	width: 30%;
+	height: 460px;
+	float: left;
+}
+
+#main-container
+{
+	position: relative;
+	float: left;
+	height: 460px;
+	width: 69%;
+	/*border: 2px solid black;*/
+}
+
+.flip-card {
+  background-color: transparent;
+  margin: 3% 5%;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  float: left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #bbb;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+#final-div
+{
+	width: 100%;
+	height: 80px;
+	/*border: 1px solid black;*/
+}
+
